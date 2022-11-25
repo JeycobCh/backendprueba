@@ -16,8 +16,8 @@ public class UserRepository {
 
     private void initializeDb() {
         User admin = new User();
-        admin.username = "admin";
-        admin.password = "admin";
+        admin.username = "Jeycob";
+        admin.password = "123";
         db.add(admin);
     }
 

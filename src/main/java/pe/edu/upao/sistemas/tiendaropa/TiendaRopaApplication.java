@@ -18,9 +18,8 @@ public class TiendaRopaApplication {
 	public WebMvcConfigurer corsConfigurar() {
 		return new WebMvcConfigurer() {
 
-			public void addCarsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("http://localhost:49288/");
-
+			public void addCorsMappings(CorsRegistry registry) {
+				registry.addMapping("/**").allowedOrigins("http://localhost:4200/");
 			}
 		};
 	}
